@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balaji Kallagunta | Data Science Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    }
+  </script>
+  <style>
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .fade-in-up {
+      opacity: 0;
+      animation: fadeInUp 0.6s ease forwards;
+    }
+    .delay-1 { animation-delay: 1.2s; }
+    .delay-2 { animation-delay: 1.4s; }
+    .delay-3 { animation-delay: 1.6s; }
+    .delay-4 { animation-delay: 1.8s; }
+    .delay-5 { animation-delay: 2.0s; }
+    .delay-6 { animation-delay: 2.2s; }
+  </style>
+</head>
+<body class="bg-blue-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-500">
+  <header class="sticky top-0 z-50 bg-white dark:bg-gray-900 shadow">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">Balaji Kallagunta</h1>
+      <nav class="space-x-6 font-semibold">
+        <a href="#about" class="hover:text-blue-500">About</a>
+        <a href="#skills" class="hover:text-blue-500">Skills</a>
+        <a href="#projects" class="hover:text-blue-500">Projects</a>
+        <a href="#certifications" class="hover:text-blue-500">Certifications</a>
+        <a href="#contact" class="hover:text-blue-500">Contact</a>
+      </nav>
+      <button onclick="document.documentElement.classList.toggle('dark')" class="text-sm text-gray-500 hover:text-blue-600">
+        🌙
+      </button>
+    </div>
+  </header>
+  <section class="text-center py-16" id="home">
+    <img src="myimage.jpg" alt="Balaji" class="w-32 h-32 rounded-full mx-auto mb-4" />
+    <h2 class="text-3xl font-bold">Hi, I'm Balaji Kallagunta</h2>
+    <p class="text-xl text-gray-600 dark:text-gray-400">Data Science Enthusiast | Python Developer | Full Stack Developer</p>
+    <a href="https://drive.google.com/file/d/1jh_1WrZiHf-3X5Aju8GScbOT6Ev6VnTP/view?usp=sharing" download class="mt-6 inline-block bg-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-700">Download Resume</a>
+  </section>
+  <section id="about" class="py-12 px-6 max-w-4xl mx-auto">
+    <h3 class="text-2xl font-bold border-b-4 border-blue-600 inline-block mb-6">About Me</h3>
+    <p class="mb-4">I'm a final-year B.Tech student specializing in <strong>CSE - Data Science</strong> at Ann’s College of Engineering and Technology, Chirala. I am passionate about solving real-world problems using Python, data analysis, and building web-based solutions.</p>
+    <p>Currently seeking internships or job opportunities in data science or front-end development to sharpen my skills and contribute to real projects.</p>
+  </section>
+  <section id="skills" class="py-12 px-6 max-w-4xl mx-auto">
+    <h3 class="text-2xl font-bold border-b-4 border-blue-600 inline-block mb-6">Skills</h3>
+    <div class="flex flex-wrap gap-4">
+      <span class="bg-blue-600 text-white px-4 py-1 rounded-full">Python</span>
+      <span class="bg-blue-600 text-white px-4 py-1 rounded-full">Data Science</span>
+      <span class="bg-blue-600 text-white px-4 py-1 rounded-full">Java Basic</span>
+      <span class="bg-blue-600 text-white px-4 py-1 rounded-full">C Basic</span>
+      <span class="bg-blue-600 text-white px-4 py-1 rounded-full">SQL</span>
+      <span class="bg-blue-600 text-white px-4 py-1 rounded-full">HTML</span>
+      <span class="bg-blue-600 text-white px-4 py-1 rounded-full">CSS</span>
+      <span class="bg-blue-600 text-white px-4 py-1 rounded-full">JavaScript</span>
+      <span class="bg-blue-600 text-white px-4 py-1 rounded-full">Machine Learning</span>
+      <span class="bg-blue-600 text-white px-4 py-1 rounded-full">MongoDB</span>
+    </div>
+  </section>
+  <section id="projects" class="py-12 px-6 max-w-4xl mx-auto">
+    <h3 class="text-2xl font-bold border-b-4 border-blue-600 inline-block mb-6">Projects</h3>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
+        <img src="GitHubimg.png" alt="Project 1" class="rounded mb-4">
+        <h4 class="text-xl font-semibold">Portfolio Website</h4>
+        <p class="text-gray-600 dark:text-gray-400">Personal website built using HTML, CSS, and JavaScript showcasing my profile, skills, and work.</p>
+        <a href="https://github.com/kallaguntabalaji12" class="text-blue-600 hover:underline">Portfolio</a>
+    </div>
+    <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
+        <img src="Freelancefinderimg.png" alt="FreelanceFinder Project" class="rounded mb-4">
+        <h4 class="text-xl font-semibold">FreelanceFinder</h4>
+        <p class="text-gray-600 dark:text-gray-400">A platform to discover freelance opportunities, built during my SmartBridge Internship using full stack technologies.</p>
+        <a href="https://github.com/kallaguntabalaji12/FreelanceFinder"  class="text-blue-600 hover:underline">Project</a>
+        <div></div>
+        <a href="https://docs.google.com/document/d/1A8qypXbMLXXT8Ff7-Ik-3xkw-qVM7WPP/edit?usp=sharing&ouid=114759797341322047247&rtpof=true&sd=true"class="text-blue-600 hover:underline">document</a>
+    </div>
+    <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
+        <img src="Applicationimg.png" alt="To-Do List App" class="rounded mb-4">
+        <h4 class="text-xl font-semibold">To-Do List Web App</h4>
+        <p class="text-gray-600 dark:text-gray-400">A simple and intuitive task management app with add/delete functionality built using vanilla JavaScript.</p>
+        <a href="https://drive.google.com/file/d/1OiiKvA2vATPAt86FBB2v3mJyhn5hDUcC/view?usp=sharing-" class="text-blue-600 hover:underline">Project</a>
+    </div>
+    <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
+        <img src="powerBI.png" alt="Power BI Dashboard" class="rounded mb-4">
+        <h4 class="text-xl font-semibold">Power BI Dashboard</h4>
+        <p class="text-gray-600 dark:text-gray-400">A data visualization dashboard created using Power BI to deliver clear and interactive business insights.</p>
+        <a href="https://drive.google.com/file/d/1yDEen0BMHyjDnN8og98f1OeaD3nMh1nY/view?usp=sharing" class="text-blue-600 hover:underline">Dashboard</a>
+    </div>
+    </div>
+  </section>
+<section id="certifications" class="py-12 px-6 max-w-4xl mx-auto">
+  <h3 class="text-2xl font-bold border-b-4 border-blue-600 inline-block mb-6 fade-in-up delay-1">Certifications</h3>
+  <ul class="list-disc ml-6 text-gray-700 dark:text-gray-300">
+    <li class="fade-in-up delay-3">SmartBridge-Full Stack Development /<a href="">Link</a></li>
+    <li class="fade-in-up delay-2">Vault Of Codes-Web Development /<a href="https://drive.google.com/file/d/1yXq1TQHA5UFdAxSER0BvQDw_lrR8PlAJ/view?usp=sharing">Link</a></li>
+    <li class="fade-in-up delay-4">Aimers-Artificial Intelligence /<a href="https://drive.google.com/file/d/188q0JGsks-QYeH61CHYFLdOGspld2XDK/view?usp=sharing">Link</a></li>
+  </ul>
+</section>
+<section id="contact" class="py-12 px-6 max-w-4xl mx-auto text-center">
+  <h3 class="text-2xl font-bold border-b-4 border-blue-600 inline-block mb-6 fade-in-up delay-1">Contact</h3>
+  <p class="mb-2 fade-in-up delay-2">&#128231; <a href="mailto:kallaguntabalaji143@gmail.com" class="text-blue-600 hover:underline">kallaguntabalaji143@gmail.com</a></p>
+  <p class="mb-2 fade-in-up delay-3">&#128188; <a href="https://www.linkedin.com/in/kallagunta-balaji-261b2a298" class="text-blue-600 hover:underline">LinkedIn</a></p>
+  <p class="mb-2 fade-in-up delay-4">&#128187; <a href="https://github.com/kallaguntabalaji12" class="text-blue-600 hover:underline">GitHub</a></p>
+  <p class="mb-2 fade-in-up delay-5">&#128248; <a href="https://www.instagram.com/insta_user_balu_65" class="text-blue-600 hover:underline">Instagram</a></p>
+
+</section>
+<footer class="text-center py-6 border-t dark:border-gray-700 text-sm text-gray-500 dark:text-gray-400 fade-in-up delay-5">
+  © 2025 Balaji Kallagunta.
+</footer>
+</body>
+</html>
